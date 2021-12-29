@@ -107,3 +107,20 @@ p {
   margin-top: 150px !important;
   margin-bottom: 100px !important;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px !important;
+  }
+  .text-sm-start {
+    text-align: center !important;
+  }
+  .button-link {
+    display: block;
+    text-align: center;
+    margin: 0 80px;
+  }
+  .image-home {
+    display: none;
+  }
+}
